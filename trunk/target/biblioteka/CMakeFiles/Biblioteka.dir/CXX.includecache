@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../biblioteka/include/Client.h
+string
+-
+
+/media/sf_wspol/niewiem/trunk/biblioteka/src/Client.cpp
+Client.h
+/media/sf_wspol/niewiem/trunk/biblioteka/src/Client.h
+iostream
+-
+
