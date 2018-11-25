@@ -12,7 +12,6 @@ private:
    shared_ptr<Address> address;
 public:
    shared_ptr<Address> registeredAddress;
-public:
     Client();
     Client(string, string, string);
     string clientInfo();

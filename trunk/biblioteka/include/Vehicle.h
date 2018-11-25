@@ -6,7 +6,7 @@ private:
     string id;
     int baseRentPrice;
 public:
-    Vehicle(string. int);
+    Vehicle(string, int);
     string getId();
     int getBaseRentPrice;
 };

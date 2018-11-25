@@ -8,72 +8,76 @@
 		<Option virtualFolders="CMake Files\;CMake Files\biblioteka\;CMake Files\program\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/wspol/niewiem/trunk/cmake-build-debug/program"/>
+				<Option working_dir="/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program">
-				<Option output="D:/wspol/niewiem/trunk/cmake-build-debug/program/Program.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/wspol/niewiem/trunk/cmake-build-debug/program"/>
+				<Option output="/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/wspol/niewiem/trunk/program/include"/>
-					<Add directory="D:/wspol/niewiem/trunk/biblioteka/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/home/pobi/Pulpit/Wspolny/trunk/program/include"/>
+					<Add directory="/home/pobi/Pulpit/Wspolny/trunk/biblioteka/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Program/fast">
-				<Option output="D:/wspol/niewiem/trunk/cmake-build-debug/program/Program.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/wspol/niewiem/trunk/cmake-build-debug/program"/>
+				<Option output="/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Program" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="D:/wspol/niewiem/trunk/program/include"/>
-					<Add directory="D:/wspol/niewiem/trunk/biblioteka/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="/home/pobi/Pulpit/Wspolny/trunk/program/include"/>
+					<Add directory="/home/pobi/Pulpit/Wspolny/trunk/biblioteka/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/niewiem/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 Program/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Wspolny/trunk/cmake-build-debug/program/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/wspol/niewiem/trunk/program/src/main.cpp">
+		<Unit filename="/home/pobi/Pulpit/Wspolny/trunk/program/src/main.cpp">
 			<Option target="Program"/>
 		</Unit>
-		<Unit filename="D:/wspol/niewiem/trunk/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/Wspolny/trunk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="D:/wspol/niewiem/trunk/biblioteka/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/Wspolny/trunk/biblioteka/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\biblioteka\"/>
 		</Unit>
-		<Unit filename="D:/wspol/niewiem/trunk/program/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/Wspolny/trunk/program/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\program\"/>
 		</Unit>
 	</Project>

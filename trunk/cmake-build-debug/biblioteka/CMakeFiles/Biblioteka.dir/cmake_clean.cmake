@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Biblioteka.dir/src/Client.cpp.obj"
+  "CMakeFiles/Biblioteka.dir/src/Client.cpp.o"
   "libBiblioteka.pdb"
   "libBiblioteka.a"
 )
