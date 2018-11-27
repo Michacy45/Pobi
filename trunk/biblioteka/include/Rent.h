@@ -1,16 +1,25 @@
 #include <boost>
 #include <memory>
+#include <sstream>
+#include "Client.h"
+#include "Vehicle.h"
 using namespace std;
 
 class Rent {
 private:
     boost::uuids::uuid ID;
-    shared_ptr<Client> Client;
-    shared_ptr<Vehicle> Vehicle;
-    shared_ptr<local_date_time> RentalDateTime;
+    shared_ptr<Client> klient;
+    shared_ptr<Vehicle> pojazd;
+    int rentDataTime;
+    int returnDataTime;
+    int price;
 public:
-    Rent(Client, Vehicle, RentalDateTime);
+    Rent(shared_ptr<Client>, shared_ptr<Vehicle>, int);
     int rentDuration();
     void returnVehicle();
     string rentInfo();
+    int getPrice();
+    shared_ptr<Client> getClient();
+    shared_ptr<Vehicle> getVehicle();
+
 };

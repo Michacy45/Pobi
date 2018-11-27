@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/wspol/niewiem/trunk/biblioteka/src/Address.cpp" "D:/wspol/niewiem/trunk/cmake-build-debug/CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj"
-  "D:/wspol/niewiem/trunk/biblioteka/src/Client.cpp" "D:/wspol/niewiem/trunk/cmake-build-debug/CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj"
-  "D:/wspol/niewiem/trunk/program/src/main.cpp" "D:/wspol/niewiem/trunk/cmake-build-debug/CMakeFiles/trunk.dir/program/src/main.cpp.obj"
+  "D:/wspol/2168612/trunk/biblioteka/src/Address.cpp" "D:/wspol/2168612/trunk/cmake-build-debug/CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj"
+  "D:/wspol/2168612/trunk/biblioteka/src/Client.cpp" "D:/wspol/2168612/trunk/cmake-build-debug/CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj"
+  "D:/wspol/2168612/trunk/program/src/main.cpp" "D:/wspol/2168612/trunk/cmake-build-debug/CMakeFiles/trunk.dir/program/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

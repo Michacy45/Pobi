@@ -1,8 +1,10 @@
+
 #include <string>
 #include "Address.h"
 #include <memory>
-
+#include <vector>
 using namespace std;
+class Rent;
 class Client{
 
 private:
@@ -10,12 +12,16 @@ private:
    string lastName;
    string personalID;
    shared_ptr<Address> address;
-public:
    shared_ptr<Address> registeredAddress;
+   vector<shared_ptr<Rent>> rents;
+
+public:
     Client();
     Client(string, string, string);
     string clientInfo();
     string getFirstName();
+    string getLastName();
     void setAddress(string,string);
     void setRegAddress(string,string);
+    void addRent(shared_ptr<Rent>);
 };

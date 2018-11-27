@@ -1,2 +1,0 @@
-/usr/bin/ar qc libBiblioteka.a  CMakeFiles/Biblioteka.dir/src/Client.cpp.o
-/usr/bin/ranlib libBiblioteka.a

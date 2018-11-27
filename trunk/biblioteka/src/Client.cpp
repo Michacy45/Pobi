@@ -27,6 +27,10 @@ string Client::clientInfo() {
 string Client::getFirstName() {
     return firstName;
 }
+
+string Client::getLastName() {
+    return lastName;
+}
 void Client::setAddress(string street, string number) {
     shared_ptr<Address> address2 (new Address());
     address=address2;
@@ -40,4 +44,6 @@ void Client::setRegAddress(string street, string number) {
     registeredAddress->setNumber(number);
     registeredAddress->setStreet(street);
 }
-
+ void Client::addRent(shared_ptr<Rent> rent) {
+    rents.push_back(rent);
+}

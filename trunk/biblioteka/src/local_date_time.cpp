@@ -2,10 +2,14 @@
 
 using namespace std;
 
-local_date_time::local_date_time(LocalTime rentalDateTime) {
+local_date_time::local_date_time(int rentalDateTime){
     this->rentalDateTime=rentalDateTime;
 }
 
-local_date_time::returnDateTime(){
-    return returnDateTime;
+int local_date_time::rentalDate(){
+    return rentalDateTime;
+}
+
+int local_date_time::rentalTimeDuration(int returnDateTime) {
+    return returnDateTime - rentalDateTime;
 }
