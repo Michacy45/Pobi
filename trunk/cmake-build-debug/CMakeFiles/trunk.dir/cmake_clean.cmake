@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj"
   "CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.obj"
   "CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj"
+  "CMakeFiles/trunk.dir/biblioteka/src/MotorVehicle.cpp.obj"
+  "CMakeFiles/trunk.dir/biblioteka/src/Car.cpp.obj"
   "trunk.pdb"
   "trunk.exe"
   "trunk.exe.manifest"

@@ -16,4 +16,8 @@ add_executable(trunk
         biblioteka/include/Rent.h
         biblioteka/src/Rent.cpp
         biblioteka/include/Vehicle.h
-        biblioteka/src/Vehicle.cpp)
+        biblioteka/src/Vehicle.cpp
+        biblioteka/include/MotorVehicle.h
+        biblioteka/src/MotorVehicle.cpp
+        biblioteka/include/Car.h
+        biblioteka/src/Car.cpp)

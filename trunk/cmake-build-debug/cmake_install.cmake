@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Adam/Desktop/Wspolny/trunk
+# Install script for directory: D:/wspol/216861/trunk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/POBIProject")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/trunk")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/wspol/216861/trunk/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

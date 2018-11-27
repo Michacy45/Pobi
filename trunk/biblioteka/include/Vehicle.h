@@ -2,7 +2,7 @@
 #include <sstream>
 using namespace std;
 class Vehicle{
-private:
+protected:
     string id;
     int baseRentPrice;
 public:
