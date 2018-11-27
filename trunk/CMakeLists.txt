@@ -20,4 +20,8 @@ add_executable(trunk
         biblioteka/include/MotorVehicle.h
         biblioteka/src/MotorVehicle.cpp
         biblioteka/include/Car.h
-        biblioteka/src/Car.cpp)
+        biblioteka/src/Car.cpp
+        biblioteka/include/Moped.h
+        biblioteka/src/Moped.cpp
+        biblioteka/include/Bicycle.h
+        biblioteka/src/Bicycle.cpp)

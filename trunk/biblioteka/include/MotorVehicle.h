@@ -1,8 +1,9 @@
+#ifndef TRUNK_MOTORVEHICLE_H
+#define TRUNK_MOTORVEHICLE_H
+
 #include "Vehicle.h"
 using namespace std;
 
-#ifndef TRUNK_MOTORVEHICLE_H
-#define TRUNK_MOTORVEHICLE_H
 class MotorVehicle:public Vehicle{
 
 protected:
@@ -13,9 +14,5 @@ public:
 
 };
 
-
-
-
-
-#endif //TRUNK_MOTORVEHICLE_H
+#endif
 

@@ -1,4 +1,5 @@
 #include "Client.h"
+#include "Rent.h"
 
 using namespace std;
 Client::Client()
@@ -26,7 +27,7 @@ string Client::clientInfo() {
 
     for(int i=0; i<=rents.size(); i++)
     {
-        result << rents[i].;
+        result << rents[i]->rentInfo();
     }
 
     return result.str();

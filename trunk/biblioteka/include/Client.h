@@ -1,3 +1,6 @@
+#ifndef TRUNK_CLIENT_H
+#define TRUNK_CLIENT_H
+
 #include <iostream>
 #include <string>
 #include "Address.h"
@@ -26,3 +29,5 @@ public:
     void setRegAddress(string,string);
     void addRent(shared_ptr<Rent>);
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef TRUNK_ADDRESS_H
+#define TRUNK_ADDRESS_H
+
 #include <string>
 using namespace std;
 class Address{
@@ -11,3 +14,5 @@ public:
     void setStreet(string);
     void setNumber(string);
 };
+
+#endif

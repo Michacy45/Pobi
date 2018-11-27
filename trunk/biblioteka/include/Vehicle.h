@@ -1,3 +1,6 @@
+#ifndef TRUNK_VEHICLE_H
+#define TRUNK_VEHICLE_H
+
 #include <iostream>
 #include <sstream>
 using namespace std;
@@ -11,3 +14,5 @@ public:
     int getBaseRentPrice();
     string vehicleInfo();
 };
+
+#endif

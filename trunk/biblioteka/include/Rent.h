@@ -1,3 +1,6 @@
+#ifndef TRUNK_RENT_H
+#define TRUNK_RENT_H
+
 //#include <boost>
 #include <memory>
 #include <sstream>
@@ -24,3 +27,5 @@ public:
     shared_ptr<Vehicle> getVehicle();
 
 };
+
+#endif

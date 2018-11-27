@@ -1,3 +1,3 @@
-D:/wspol/216861/trunk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/wspol/216861/trunk/cmake-build-debug/CMakeFiles/trunk.dir
-D:/wspol/216861/trunk/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/CMakeFiles/trunk.dir
+C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/CMakeFiles/edit_cache.dir
