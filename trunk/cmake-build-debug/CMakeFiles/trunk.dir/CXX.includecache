@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../biblioteka/include/Address.h
+string
+-
+
+../biblioteka/include/Client.h
+iostream
+-
+string
+-
+Address.h
+../biblioteka/include/Address.h
+memory
+-
+vector
+-
+sstream
+-
+
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Client.cpp
+Client.h
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Client.h
+

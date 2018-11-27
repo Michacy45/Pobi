@@ -1,6 +1,4 @@
 #include "Client.h"
-#include <iostream>
-
 
 using namespace std;
 Client::Client()
@@ -17,11 +15,21 @@ Client::Client(string firstName, string lastName, string personalID) {
 }
 
 string Client::clientInfo() {
-    string result = firstName + " " + lastName + " " + personalID;
-    if (address) result = result + " " + address->getStreet() + " " + address->getNumber();
-    if (registeredAddress)
-        result = result + " " + registeredAddress->getStreet() + " " + registeredAddress->getNumber();
-    return result;
+    ostringstream result;
+    result << firstName << " " << lastName << " " << personalID;
+    if (address) {
+        result << " " << address->getStreet() << " " << address->getNumber();
+    }
+    if (registeredAddress) {
+        result << " " << registeredAddress->getStreet() << " " << registeredAddress->getNumber();
+    }
+
+    for(int i=0; i<=rents.size(); i++)
+    {
+        result << rents[i].;
+    }
+
+    return result.str();
 }
 
 string Client::getFirstName() {
@@ -31,6 +39,7 @@ string Client::getFirstName() {
 string Client::getLastName() {
     return lastName;
 }
+
 void Client::setAddress(string street, string number) {
     shared_ptr<Address> address2 (new Address());
     address=address2;

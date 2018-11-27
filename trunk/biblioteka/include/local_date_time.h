@@ -10,4 +10,4 @@ public:
     local_date_time(int);
     int rentalDate();
     int rentalTimeDuration(int);
-}s
+}

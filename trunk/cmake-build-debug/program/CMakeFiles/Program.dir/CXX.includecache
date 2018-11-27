@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../biblioteka/include/Address.h
+string
+-
+
+../biblioteka/include/Client.h
+string
+-
+Address.h
+../biblioteka/include/Address.h
+memory
+-
+
+/home/pobi/Pulpit/Wspolny/trunk/program/src/main.cpp
+iostream
+-
+Client.h
+/home/pobi/Pulpit/Wspolny/trunk/program/src/Client.h
+

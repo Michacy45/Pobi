@@ -1,18 +1,25 @@
 #include "Rent.h"
 using namespace std;
+
 Rent::Rent(shared_ptr<Client> client, shared_ptr<Vehicle> vehicle, int rentDataTime) {
+
+    if(client == nullptr || vehicle == nullptr || rentDataTime <=0)
+    {
+        throw logic_error ("Lol, nie. P.S Nie lubie Peska");
+    }
     this->client=client;
     this->vehicle=vehicle;
     this->rentDataTime=rentDataTime;
     price=0;
-    boost::uuids::nil_generator gen;
-    ID=gen();
-    shared_ptr<Rent> rent (this)
-    client.addRent(rent);
+    //boost::uuids::nil_generator gen;
+    //ID=gen();
+    shared_ptr<Rent> rent (this);
+    client->addRent(rent);
 }
+
 void Rent::returnVehicle(int returnDataTime) {
     this->returnDataTime=rentDataTime;
-    price=vehicle.getBaseRentPrice()*rentDuration();
+    price=vehicle->getBaseRentPrice()*rentDuration();
     //returnDataTime=dzisiejsza data
 
 }
@@ -23,9 +30,9 @@ int Rent::rentDuration() {
 
 string Rent::rentInfo() {
     ostringstream info;
-    info << " Id: " << ID << " Data poczatkowa: " << rentDataTime
-    << " data koncowa "<< returnDataTime << " Imie i nazwisko: "<< client.getFirstName()
-    <<" "<<client.getLastName();
+    info << " Id wypożyczenia: " << /*ID << */" Data poczatkowa: " << rentDataTime
+    << " data koncowa "<< returnDataTime << " Imie i nazwisko: "<< client->getFirstName()
+    <<" "<<client->getLastName();
     return info.str();
 }
 

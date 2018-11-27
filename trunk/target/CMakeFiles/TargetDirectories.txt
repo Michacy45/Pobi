@@ -1,0 +1,13 @@
+/media/sf_wspol/niewiem/trunk/target/CMakeFiles/rebuild_cache.dir
+/media/sf_wspol/niewiem/trunk/target/CMakeFiles/test.dir
+/media/sf_wspol/niewiem/trunk/target/CMakeFiles/edit_cache.dir
+/media/sf_wspol/niewiem/trunk/target/program/CMakeFiles/rebuild_cache.dir
+/media/sf_wspol/niewiem/trunk/target/program/CMakeFiles/edit_cache.dir
+/media/sf_wspol/niewiem/trunk/target/program/CMakeFiles/Program.dir
+/media/sf_wspol/niewiem/trunk/target/program/CMakeFiles/test.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/edit_cache.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/check.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/test.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/Biblioteka.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/rebuild_cache.dir
+/media/sf_wspol/niewiem/trunk/target/biblioteka/CMakeFiles/TestBibl.dir

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\wspol\2168612\trunk
+CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Wspolny\trunk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\wspol\2168612\trunk\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\wspol\2168612\trunk\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\2168612\trunk\cmake-build-debug\CMakeFiles D:\wspol\2168612\trunk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\2168612\trunk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,6 +176,60 @@ biblioteka/src/Client.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.s
 .PHONY : biblioteka/src/Client.cpp.s
 
+biblioteka/src/Rent.obj: biblioteka/src/Rent.cpp.obj
+
+.PHONY : biblioteka/src/Rent.obj
+
+# target to build an object file
+biblioteka/src/Rent.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.obj
+.PHONY : biblioteka/src/Rent.cpp.obj
+
+biblioteka/src/Rent.i: biblioteka/src/Rent.cpp.i
+
+.PHONY : biblioteka/src/Rent.i
+
+# target to preprocess a source file
+biblioteka/src/Rent.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.i
+.PHONY : biblioteka/src/Rent.cpp.i
+
+biblioteka/src/Rent.s: biblioteka/src/Rent.cpp.s
+
+.PHONY : biblioteka/src/Rent.s
+
+# target to generate assembly for a file
+biblioteka/src/Rent.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.s
+.PHONY : biblioteka/src/Rent.cpp.s
+
+biblioteka/src/Vehicle.obj: biblioteka/src/Vehicle.cpp.obj
+
+.PHONY : biblioteka/src/Vehicle.obj
+
+# target to build an object file
+biblioteka/src/Vehicle.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj
+.PHONY : biblioteka/src/Vehicle.cpp.obj
+
+biblioteka/src/Vehicle.i: biblioteka/src/Vehicle.cpp.i
+
+.PHONY : biblioteka/src/Vehicle.i
+
+# target to preprocess a source file
+biblioteka/src/Vehicle.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.i
+.PHONY : biblioteka/src/Vehicle.cpp.i
+
+biblioteka/src/Vehicle.s: biblioteka/src/Vehicle.cpp.s
+
+.PHONY : biblioteka/src/Vehicle.s
+
+# target to generate assembly for a file
+biblioteka/src/Vehicle.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.s
+.PHONY : biblioteka/src/Vehicle.cpp.s
+
 program/src/main.obj: program/src/main.cpp.obj
 
 .PHONY : program/src/main.obj
@@ -218,6 +272,12 @@ help:
 	@echo ... biblioteka/src/Client.obj
 	@echo ... biblioteka/src/Client.i
 	@echo ... biblioteka/src/Client.s
+	@echo ... biblioteka/src/Rent.obj
+	@echo ... biblioteka/src/Rent.i
+	@echo ... biblioteka/src/Rent.s
+	@echo ... biblioteka/src/Vehicle.obj
+	@echo ... biblioteka/src/Vehicle.i
+	@echo ... biblioteka/src/Vehicle.s
 	@echo ... program/src/main.obj
 	@echo ... program/src/main.i
 	@echo ... program/src/main.s

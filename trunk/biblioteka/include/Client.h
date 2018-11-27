@@ -1,8 +1,9 @@
-
+#include <iostream>
 #include <string>
 #include "Address.h"
 #include <memory>
 #include <vector>
+#include <sstream>
 using namespace std;
 class Rent;
 class Client{

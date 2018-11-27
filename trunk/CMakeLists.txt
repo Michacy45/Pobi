@@ -12,4 +12,8 @@ add_executable(trunk
         biblioteka/src/Client.cpp
         program/src/main.cpp
         biblioteka/include/Address.h
-        biblioteka/src/Address.cpp)
+        biblioteka/src/Address.cpp
+        biblioteka/include/Rent.h
+        biblioteka/src/Rent.cpp
+        biblioteka/include/Vehicle.h
+        biblioteka/src/Vehicle.cpp)
