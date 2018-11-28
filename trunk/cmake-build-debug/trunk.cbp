@@ -8,136 +8,142 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug"/>
+				<Option working_dir="D:/wspol/216861/Pobi/trunk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug"/>
+				<Option working_dir="D:/wspol/216861/Pobi/trunk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trunk">
-				<Option output="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/trunk.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug"/>
+				<Option output="D:/wspol/216861/Pobi/trunk/cmake-build-debug/trunk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/wspol/216861/Pobi/trunk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include"/>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src"/>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/program/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/biblioteka/include"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/biblioteka/src"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/program/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 trunk"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 trunk"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trunk/fast">
-				<Option output="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/trunk.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug"/>
+				<Option output="D:/wspol/216861/Pobi/trunk/cmake-build-debug/trunk.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/wspol/216861/Pobi/trunk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include"/>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src"/>
-					<Add directory="C:/Users/Adam/Desktop/Wspolny/trunk/program/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/biblioteka/include"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/biblioteka/src"/>
+					<Add directory="D:/wspol/216861/Pobi/trunk/program/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 trunk/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 trunk/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug"/>
+				<Option working_dir="D:/wspol/216861/Pobi/trunk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-W/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Adam/Desktop/Wspolny/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/wspol/216861/Pobi/trunk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Address.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Address.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Bicycle.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Bicycle.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Car.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Car.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Client.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Client.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Moped.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/CurrentRentsRepository.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/MotorVehicle.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Moped.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Rent.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/MotorVehicle.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/include/Vehicle.h">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Rent.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Address.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/include/Vehicle.h">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Bicycle.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Address.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Car.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Bicycle.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Client.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Car.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Moped.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Client.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/MotorVehicle.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/CurrentRentsRepository.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Rent.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Moped.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Vehicle.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/MotorVehicle.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/program/src/main.cpp">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Rent.cpp">
 			<Option target="trunk"/>
 		</Unit>
-		<Unit filename="C:/Users/Adam/Desktop/Wspolny/trunk/CMakeLists.txt">
+		<Unit filename="D:/wspol/216861/Pobi/trunk/biblioteka/src/Vehicle.cpp">
+			<Option target="trunk"/>
+		</Unit>
+		<Unit filename="D:/wspol/216861/Pobi/trunk/program/src/main.cpp">
+			<Option target="trunk"/>
+		</Unit>
+		<Unit filename="D:/wspol/216861/Pobi/trunk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

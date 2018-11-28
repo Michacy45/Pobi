@@ -24,4 +24,6 @@ add_executable(trunk
         biblioteka/include/Moped.h
         biblioteka/src/Moped.cpp
         biblioteka/include/Bicycle.h
-        biblioteka/src/Bicycle.cpp)
+        biblioteka/src/Bicycle.cpp
+        biblioteka/include/CurrentRentsRepository.h
+        biblioteka/src/CurrentRentsRepository.cpp)

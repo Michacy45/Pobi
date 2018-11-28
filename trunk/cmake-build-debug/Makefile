@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Wspolny\trunk
+CMAKE_SOURCE_DIR = D:\wspol\216861\Pobi\trunk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
+CMAKE_BINARY_DIR = D:\wspol\216861\Pobi\trunk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -229,6 +229,33 @@ biblioteka/src/Client.s: biblioteka/src/Client.cpp.s
 biblioteka/src/Client.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.s
 .PHONY : biblioteka/src/Client.cpp.s
+
+biblioteka/src/CurrentRentsRepository.obj: biblioteka/src/CurrentRentsRepository.cpp.obj
+
+.PHONY : biblioteka/src/CurrentRentsRepository.obj
+
+# target to build an object file
+biblioteka/src/CurrentRentsRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj
+.PHONY : biblioteka/src/CurrentRentsRepository.cpp.obj
+
+biblioteka/src/CurrentRentsRepository.i: biblioteka/src/CurrentRentsRepository.cpp.i
+
+.PHONY : biblioteka/src/CurrentRentsRepository.i
+
+# target to preprocess a source file
+biblioteka/src/CurrentRentsRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.i
+.PHONY : biblioteka/src/CurrentRentsRepository.cpp.i
+
+biblioteka/src/CurrentRentsRepository.s: biblioteka/src/CurrentRentsRepository.cpp.s
+
+.PHONY : biblioteka/src/CurrentRentsRepository.s
+
+# target to generate assembly for a file
+biblioteka/src/CurrentRentsRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.s
+.PHONY : biblioteka/src/CurrentRentsRepository.cpp.s
 
 biblioteka/src/Moped.obj: biblioteka/src/Moped.cpp.obj
 
@@ -386,6 +413,9 @@ help:
 	@echo ... biblioteka/src/Client.obj
 	@echo ... biblioteka/src/Client.i
 	@echo ... biblioteka/src/Client.s
+	@echo ... biblioteka/src/CurrentRentsRepository.obj
+	@echo ... biblioteka/src/CurrentRentsRepository.i
+	@echo ... biblioteka/src/CurrentRentsRepository.s
 	@echo ... biblioteka/src/Moped.obj
 	@echo ... biblioteka/src/Moped.i
 	@echo ... biblioteka/src/Moped.s

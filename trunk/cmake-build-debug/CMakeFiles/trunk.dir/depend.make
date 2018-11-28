@@ -4,6 +4,10 @@
 CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj: ../biblioteka/include/Address.h
 CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj: ../biblioteka/src/Address.cpp
 
+CMakeFiles/trunk.dir/biblioteka/src/Bicycle.cpp.obj: ../biblioteka/include/Bicycle.h
+CMakeFiles/trunk.dir/biblioteka/src/Bicycle.cpp.obj: ../biblioteka/include/Vehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/Bicycle.cpp.obj: ../biblioteka/src/Bicycle.cpp
+
 CMakeFiles/trunk.dir/biblioteka/src/Car.cpp.obj: ../biblioteka/include/Car.h
 CMakeFiles/trunk.dir/biblioteka/src/Car.cpp.obj: ../biblioteka/include/MotorVehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/Car.cpp.obj: ../biblioteka/include/Vehicle.h
@@ -14,6 +18,18 @@ CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj: ../biblioteka/include/Client
 CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj: ../biblioteka/include/Rent.h
 CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj: ../biblioteka/include/Vehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj: ../biblioteka/src/Client.cpp
+
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Address.h
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Client.h
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/CurrentRentsRepository.h
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Rent.h
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Vehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/src/CurrentRentsRepository.cpp
+
+CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/Moped.h
+CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/MotorVehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/Vehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/src/Moped.cpp
 
 CMakeFiles/trunk.dir/biblioteka/src/MotorVehicle.cpp.obj: ../biblioteka/include/MotorVehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/MotorVehicle.cpp.obj: ../biblioteka/include/Vehicle.h
