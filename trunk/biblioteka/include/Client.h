@@ -18,16 +18,18 @@ private:
    shared_ptr<Address> address;
    shared_ptr<Address> registeredAddress;
    vector<shared_ptr<Rent>> rents;
+   char upust;
 
 public:
     Client();
-    Client(string, string, string);
+    Client(string, string, string, char);
     string clientInfo();
     string getFirstName();
     string getLastName();
     void setAddress(string,string);
     void setRegAddress(string,string);
     void addRent(shared_ptr<Rent>);
+    void clientType();
 };
 
 #endif

@@ -44,6 +44,13 @@ CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.obj: ../biblioteka/src/Rent.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj: ../biblioteka/include/Vehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj: ../biblioteka/src/Vehicle.cpp
 
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/Address.h
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/Client.h
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/Rent.h
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/Vehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/VehicleRepository.h
+CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/src/VehicleRepository.cpp
+
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../biblioteka/include/Address.h
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../biblioteka/include/Client.h
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../program/src/main.cpp

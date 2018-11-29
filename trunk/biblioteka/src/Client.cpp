@@ -7,10 +7,11 @@ Client::Client()
     cout<< "konstruktor bezparametrowy";
 }
 
-Client::Client(string firstName, string lastName, string personalID) {
+Client::Client(string firstName, string lastName, string personalID, char upust) {
     this->firstName=firstName;
     this->lastName=lastName;
     this->personalID=personalID;
+    this->upust=upust;
     address = nullptr;
     registeredAddress = nullptr;
 }
@@ -56,4 +57,23 @@ void Client::setRegAddress(string street, string number) {
 }
  void Client::addRent(shared_ptr<Rent> rent) {
     rents.push_back(rent);
+}
+
+void Client::clientType() {
+    double mod;
+    switch(upust)
+    {
+        case 'A':
+            mod = 0.5;
+            break;
+        case 'B':
+            mod = 0.25;
+            break;
+        case 'C':
+            mod = 0.1;
+            break;
+        default:
+            mod = 0;
+            break;
+    }
 }

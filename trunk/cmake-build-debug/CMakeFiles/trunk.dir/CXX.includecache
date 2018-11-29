@@ -10,14 +10,6 @@
 string
 -
 
-../biblioteka/include/Bicycle.h
-Vehicle.h
-../biblioteka/include/Vehicle.h
-
-../biblioteka/include/Car.h
-MotorVehicle.h
-../biblioteka/include/MotorVehicle.h
-
 ../biblioteka/include/Client.h
 iostream
 -
@@ -39,14 +31,8 @@ list
 -
 Rent.h
 ../biblioteka/include/Rent.h
-
-../biblioteka/include/Moped.h
-MotorVehicle.h
-../biblioteka/include/MotorVehicle.h
-
-../biblioteka/include/MotorVehicle.h
-Vehicle.h
-../biblioteka/include/Vehicle.h
+iterator
+-
 
 ../biblioteka/include/Rent.h
 memory
@@ -66,49 +52,17 @@ iostream
 sstream
 -
 
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Address.cpp
-Address.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Address.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Bicycle.cpp
-Bicycle.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Bicycle.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Car.cpp
-Car.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Car.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Client.cpp
-Client.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Client.h
+../biblioteka/include/VehicleRepository.h
 Rent.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Rent.h
+../biblioteka/include/Rent.h
+list
+-
 
-D:/wspol/216861/Pobi/trunk/biblioteka/src/CurrentRentsRepository.cpp
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/CurrentRentsRepository.cpp
 CurrentRentsRepository.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/CurrentRentsRepository.h
-iterator
--
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/CurrentRentsRepository.h
 
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Moped.cpp
-Moped.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Moped.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/MotorVehicle.cpp
-MotorVehicle.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/MotorVehicle.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Rent.cpp
-Rent.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Rent.h
-
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Vehicle.cpp
-Vehicle.h
-D:/wspol/216861/Pobi/trunk/biblioteka/src/Vehicle.h
-
-D:/wspol/216861/Pobi/trunk/program/src/main.cpp
-iostream
--
-Client.h
-D:/wspol/216861/Pobi/trunk/program/src/Client.h
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/VehicleRepository.cpp
+VehicleRepository.h
+C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/VehicleRepository.h
 
