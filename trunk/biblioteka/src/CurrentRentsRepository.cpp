@@ -44,7 +44,6 @@ string CurrentRentsRepository::rentReport() {
     for(it=rents.begin(); it!=rents.end(); it++)
     {
         info << (*it)->rentInfo() << '\n';
-        return info.str();
     }
-    return "W repozytorium nie znajduje się żadne wypożyczenie";
+    return info.str();
 }

@@ -24,7 +24,7 @@ double Car::actualRentPrice() {
             mod=1.5;
             break;
         default:
-            cout<<"Podałeś segment wykraczający poza moje możliwości";
+            //cout<<"Podałeś segment wykraczający poza moje możliwości";
             break;
     }
     return MotorVehicle::actualRentPrice()*mod;

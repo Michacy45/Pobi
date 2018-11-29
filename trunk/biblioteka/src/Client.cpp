@@ -70,10 +70,10 @@ void Client::clientType() {
             mod = 0.25;
             break;
         case 'C':
-            mod = 0.1;
+            mod = 0.9;
             break;
         default:
-            mod = 0;
+            mod = 0.;
             break;
     }
 }
