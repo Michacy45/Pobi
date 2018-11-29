@@ -1,4 +1,3 @@
-
 #ifndef TRUNK_CLIENTTYPE_H
 #define TRUNK_CLIENTTYPE_H
 
@@ -8,11 +7,11 @@ private:
     int vehiclesAmount;
     double mod;
 public:
-    ClientType(char);
+    ClientType(char type = 'Z');
     int getVehiclesAmount();
     double getMod();
     void changeType(char);
 };
 
 
-#endif //TRUNK_CLIENTTYPE_H
+#endif

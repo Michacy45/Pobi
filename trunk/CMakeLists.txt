@@ -26,4 +26,12 @@ add_executable(trunk
         biblioteka/include/Bicycle.h
         biblioteka/src/Bicycle.cpp
         biblioteka/include/CurrentRentsRepository.h
-        biblioteka/src/CurrentRentsRepository.cpp biblioteka/include/VehicleRepository.h biblioteka/src/VehicleRepository.cpp biblioteka/include/ClientRepository.h biblioteka/src/ClientRepository.cpp biblioteka/include/RentsManager.h biblioteka/src/RentsManager.cpp)
+        biblioteka/src/CurrentRentsRepository.cpp
+        biblioteka/include/VehicleRepository.h
+        biblioteka/src/VehicleRepository.cpp
+        biblioteka/include/ClientRepository.h
+        biblioteka/src/ClientRepository.cpp
+        biblioteka/include/RentsManager.h
+        biblioteka/src/RentsManager.cpp
+        biblioteka/include/ClientType.h
+        biblioteka/src/ClientType.cpp)

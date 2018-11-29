@@ -58,22 +58,3 @@ void Client::setRegAddress(string street, string number) {
  void Client::addRent(shared_ptr<Rent> rent) {
     rents.push_back(rent);
 }
-
-void Client::clientType() {
-    double mod;
-    switch(upust)
-    {
-        case 'A':
-            mod = 0.5;
-            break;
-        case 'B':
-            mod = 0.25;
-            break;
-        case 'C':
-            mod = 0.9;
-            break;
-        default:
-            mod = 0.;
-            break;
-    }
-}

@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj"
   "CMakeFiles/trunk.dir/biblioteka/src/ClientRepository.cpp.obj"
   "CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj"
+  "CMakeFiles/trunk.dir/biblioteka/src/ClientType.cpp.obj"
   "trunk.pdb"
   "trunk.exe"
   "trunk.exe.manifest"

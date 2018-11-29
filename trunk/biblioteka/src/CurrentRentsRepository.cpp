@@ -26,16 +26,16 @@ void CurrentRentsRepository::removeRent(shared_ptr<Rent> rent) {
     }
 }
 string CurrentRentsRepository::getClientForRentedVehicle(shared_ptr<Vehicle> vehicle){
-        list<shared_ptr<Rent>>::iterator it;
-        for(it=rents.begin(); it!=rents.end(); it++)
+    list<shared_ptr<Rent>>::iterator it;
+    for(it=rents.begin(); it!=rents.end(); it++)
+    {
+        if((*it)->getVehicle()==vehicle)
         {
-            if((*it)->getVehicle()==vehicle)
-            {
-                return (*it)->rentInfo();
-            }
+            return (*it)->rentInfo();
         }
-        return "Brak pojazdu w repozytorium";
     }
+    return "Brak pojazdu w repozytorium";
+}
 
 string CurrentRentsRepository::rentReport() {
     list<shared_ptr<Rent>>::iterator it;
