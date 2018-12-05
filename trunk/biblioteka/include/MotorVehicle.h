@@ -6,7 +6,7 @@ using namespace std;
 
 class MotorVehicle:public Vehicle{
 
-protected:
+private:
     int engineDisplacement;
 public:
     MotorVehicle(int,string,int);

@@ -6,7 +6,7 @@
 class Bicycle:public Vehicle {
 
 public:
-    Bicycle(int, string, int);
+    Bicycle(int, string);
     double actualRentPrice();
 };
 

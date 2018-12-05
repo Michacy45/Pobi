@@ -19,7 +19,7 @@ Rent::Rent(shared_ptr<Client> client, shared_ptr<Vehicle> vehicle, int rentDataT
 
 void Rent::returnVehicle(int returnDataTime) {
     this->returnDataTime=rentDataTime;
-    price=vehicle->getBaseRentPrice()*rentDuration();
+    price=vehicle->actualRentPrice()*rentDuration();
     //returnDataTime=dzisiejsza data
 
 }

@@ -9,7 +9,7 @@ string Vehicle::getId() {
     return id;
 }
 
-int Vehicle::getBaseRentPrice(){
+int Vehicle::actualRentPrice(){
     return baseRentPrice;
 }
 

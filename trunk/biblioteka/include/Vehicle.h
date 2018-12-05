@@ -5,13 +5,13 @@
 #include <sstream>
 using namespace std;
 class Vehicle{
-protected:
+private:
     string id;
     int baseRentPrice;
 public:
     Vehicle(string, int);
     string getId();
-    int getBaseRentPrice();
+    int actualRentPrice();
     string vehicleInfo();
 };
 

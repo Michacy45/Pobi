@@ -1,9 +1,9 @@
 #include "ClientType.h"
 
-ClientType::ClientType(char type) {
+/*ClientType::ClientType(char type) {
     this->type=type;
     changeType(type);
-}
+}*/
 
 void ClientType::changeType(char type){
     switch(type)
@@ -23,7 +23,6 @@ void ClientType::changeType(char type){
         default:
             mod=1;
             vehiclesAmount=1;
-
     }
 }
 

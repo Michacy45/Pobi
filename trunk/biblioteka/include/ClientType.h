@@ -3,15 +3,14 @@
 
 class ClientType{
 private:
-    char type;
+    //char type;
     int vehiclesAmount;
     double mod;
 public:
-    ClientType(char type = 'Z');
+    //ClientType(char type = 'Z');
     int getVehiclesAmount();
     double getMod();
-    void changeType(char);
+    void changeType(char type = 'Z');
 };
-
 
 #endif

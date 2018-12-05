@@ -9,6 +9,7 @@
 class CurrentRentsRepository{
 private:
     list<shared_ptr<Rent>> rents;
+    list<shared_ptr<Rent>> archiveRents;
 public:
     void createRent(shared_ptr<Rent>);
     void removeRent(shared_ptr<Rent>);

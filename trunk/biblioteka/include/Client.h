@@ -7,6 +7,7 @@
 #include <memory>
 #include <vector>
 #include <sstream>
+#include "ClientType.h"
 using namespace std;
 class Rent;
 class Client{
@@ -18,7 +19,7 @@ private:
    shared_ptr<Address> address;
    shared_ptr<Address> registeredAddress;
    vector<shared_ptr<Rent>> rents;
-   char upust;
+   ClientType clientType;
 
 public:
     Client();
@@ -29,7 +30,10 @@ public:
     void setAddress(string,string);
     void setRegAddress(string,string);
     void addRent(shared_ptr<Rent>);
-    void clientType();
+    void removeRent(shared_ptr<Rent>);
+    void changeType(char);
+    double discount();
+    int vehicleAmount();
 };
 
 #endif
