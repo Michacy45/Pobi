@@ -1,16 +1,19 @@
 #include "VehicleRepository.h"
 using namespace std;
 
-string VehicleRepository::availableVehicles(shared_ptr<Vehicle> vehicle) {
+void VehicleRepository::addVehicles(shared_ptr<Vehicle> vehicle) {
     list<shared_ptr<Vehicle>>::iterator it;
-    for(it == vehicles.begin(); it != vehicles.end(); it++)
+    bool check=0;
+    for (it = vehicles.begin(); it != vehicles.end(); it++)
     {
         if((*it) == vehicle)
         {
-            return vehicle->vehicleInfo();      //??????????????
+            check=1;
+            break;
         }
+
     }
-    return "Nie ma takiego pojazdu w bazie danych";
+    if(!check) vehicles.push_back(vehicle);
 }
 
 void VehicleRepository::rentedVehicles(shared_ptr<Vehicle>) {

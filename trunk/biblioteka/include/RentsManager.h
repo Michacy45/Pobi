@@ -11,11 +11,12 @@
 class RentsManager {
 private:
     //list<shared_ptr<Client>> clients;
+    //list<shared_ptr<Vehicle>> vehicles;
+    //vector<shared_ptr<Rent>> rents;
     shared_ptr <Client> client;
-    list<shared_ptr<Vehicle>> vehicles;
-    vector<shared_ptr<Rent>> rents;
+    shared_ptr <VehicleRepository> vehicles;
 public:
-    void rentVehicle(shared_ptr<Vehicle>);
+    void rentVehicle(shared_ptr<Client>, shared_ptr<Vehicle>);
     void returnVehicle(shared_ptr<Vehicle>);
     void getAllClientRents();
 };

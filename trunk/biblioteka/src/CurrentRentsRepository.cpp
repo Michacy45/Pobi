@@ -47,3 +47,7 @@ string CurrentRentsRepository::rentReport() {
     }
     return info.str();
 }
+
+void CurrentRentsRepository::checkVehicle() {
+
+}

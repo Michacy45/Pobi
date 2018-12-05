@@ -15,6 +15,7 @@ public:
     void removeRent(shared_ptr<Rent>);
     string getClientForRentedVehicle(shared_ptr<Vehicle>);
     string rentReport();
+    void checkVehicle();
 
 };
 

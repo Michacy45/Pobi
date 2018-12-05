@@ -18,8 +18,9 @@ private:
    string personalID;
    shared_ptr<Address> address;
    shared_ptr<Address> registeredAddress;
-   vector<shared_ptr<Rent>> rents;
    ClientType clientType;
+   vector<shared_ptr<Rent>> rents;
+   int rentCounter;
 
 public:
     Client();
@@ -34,6 +35,7 @@ public:
     void changeType(char);
     double discount();
     int vehicleAmount();
+    int countRents();
 };
 
 #endif

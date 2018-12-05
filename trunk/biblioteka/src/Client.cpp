@@ -54,13 +54,9 @@ void Client::setRegAddress(string street, string number) {
     registeredAddress->setNumber(number);
     registeredAddress->setStreet(street);
 }
- void Client::addRent(shared_ptr<Rent> rent) {
+void Client::addRent(shared_ptr<Rent> rent) {
     rents.push_back(rent);
 }
-
-/*void Client::removeRent(shared_ptr<Rent> rent){
-    for(int i = rents.begin(); )
-}*/
 
 void Client::changeType(char type) {
     clientType.changeType(type);
@@ -72,4 +68,13 @@ double Client::discount() {
 
 int Client::vehicleAmount() {
     return clientType.getVehiclesAmount();
+}
+
+int Client::countRents() {
+
+    for(int i = 0; i < rents.size(); i++)
+    {
+        rentCounter++;
+    }
+    return rentCounter;
 }
