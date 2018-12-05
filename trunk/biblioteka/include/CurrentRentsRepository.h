@@ -10,13 +10,12 @@ class CurrentRentsRepository{
 private:
     list<shared_ptr<Rent>> rents;
     list<shared_ptr<Rent>> archiveRents;
+    shared_ptr <Vehicle> vehicle;
 public:
     void createRent(shared_ptr<Rent>);
     void removeRent(shared_ptr<Rent>);
     string getClientForRentedVehicle(shared_ptr<Vehicle>);
     string rentReport();
-    void checkVehicle();
-
 };
 
 #endif

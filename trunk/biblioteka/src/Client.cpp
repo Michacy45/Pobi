@@ -58,6 +58,17 @@ void Client::addRent(shared_ptr<Rent> rent) {
     rents.push_back(rent);
 }
 
+void Client::removeRent(shared_ptr<Rent> rent) {
+    vector<shared_ptr<Rent>>::iterator it;
+    for(it = rents.begin(); it != rents.end(); it++)
+    {
+        if((*it) == rent)
+        {
+            rents.erase(it);
+        }
+    }
+}
+
 void Client::changeType(char type) {
     clientType.changeType(type);
 }
@@ -71,7 +82,6 @@ int Client::vehicleAmount() {
 }
 
 int Client::countRents() {
-
     for(int i = 0; i < rents.size(); i++)
     {
         rentCounter++;

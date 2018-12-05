@@ -7,10 +7,12 @@
 
 
 class VehicleRepository {
-public:
+private:
     list<shared_ptr<Vehicle>> vehicles;
+public:
     void addVehicles(shared_ptr<Vehicle>);
     void rentedVehicles(shared_ptr<Vehicle>);
+    bool searchForVehicle(shared_ptr<Vehicle>);
 };
 
 #endif

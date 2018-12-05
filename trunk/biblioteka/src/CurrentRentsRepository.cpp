@@ -6,12 +6,11 @@ void CurrentRentsRepository::createRent(shared_ptr<Rent> rent) {
     bool check=0;
     for (it = rents.begin(); it != rents.end(); it++)
     {
-        if((*it) == rent)
+        if((*it) == rent /*|| (*it) == rent->getVehicle()*/)
         {
             check=1;
-            break;
+            throw logic_error ("Wypożyczenie już istnieje, lub ten pojazd został już wypożyczony");
         }
-
     }
     if(!check) rents.push_back(rent);
 }
@@ -46,8 +45,4 @@ string CurrentRentsRepository::rentReport() {
         info << (*it)->rentInfo() << '\n';
     }
     return info.str();
-}
-
-void CurrentRentsRepository::checkVehicle() {
-
 }
