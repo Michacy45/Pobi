@@ -19,9 +19,18 @@ void RentsManager::rentVehicle(shared_ptr<Client> client, shared_ptr<Vehicle> ve
 }
 
 void RentsManager::returnVehicle(shared_ptr<Client> client, shared_ptr<Vehicle> vehicle) {
-    client->removeRent();
+    client->removeRent(archive->getRentForVehicle(vehicle));
+    archive->fromRentsToArchive(archive->getRentForVehicle(vehicle));
+
+}
+//ZRÓB ZEBY dla tego klienta w pętli pododawało wszystkie jego Renty z archieRents a w che
+list<shared_ptr<Rent>> RentsManager::getAllClientRents(shared_ptr<Client>) {
+    list<shared_ptr<Rent>> clientrents;//
+    //...........................
+    return clientrents;
 }
 
-void RentsManager::getAllClientRents() {
-
+int RentsManager::checkClientRentBallance(shared_ptr<Client> client) {
+    //A TU TYLKO ZRÓB LISTE DO KTÓREJ ZROBISZ "=getAllClientRents' i zliczysz i zwrócisz ilość elementów w niej,
+    //generalnie dla mnie bez sensu rozdzielac to na 2 metody no ale cóż xddd
 }

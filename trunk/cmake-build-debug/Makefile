@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Wspolny\trunk
+CMAKE_SOURCE_DIR = D:\wspol\216861\Pobi\trunk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
+CMAKE_BINARY_DIR = D:\wspol\216861\Pobi\trunk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -473,6 +473,114 @@ biblioteka/src/VehicleRepository.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.s
 .PHONY : biblioteka/src/VehicleRepository.cpp.s
 
+biblioteka/src/localDateTime.obj: biblioteka/src/localDateTime.cpp.obj
+
+.PHONY : biblioteka/src/localDateTime.obj
+
+# target to build an object file
+biblioteka/src/localDateTime.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj
+.PHONY : biblioteka/src/localDateTime.cpp.obj
+
+biblioteka/src/localDateTime.i: biblioteka/src/localDateTime.cpp.i
+
+.PHONY : biblioteka/src/localDateTime.i
+
+# target to preprocess a source file
+biblioteka/src/localDateTime.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.i
+.PHONY : biblioteka/src/localDateTime.cpp.i
+
+biblioteka/src/localDateTime.s: biblioteka/src/localDateTime.cpp.s
+
+.PHONY : biblioteka/src/localDateTime.s
+
+# target to generate assembly for a file
+biblioteka/src/localDateTime.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.s
+.PHONY : biblioteka/src/localDateTime.cpp.s
+
+biblioteka/src/local_date_time.obj: biblioteka/src/local_date_time.cpp.obj
+
+.PHONY : biblioteka/src/local_date_time.obj
+
+# target to build an object file
+biblioteka/src/local_date_time.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj
+.PHONY : biblioteka/src/local_date_time.cpp.obj
+
+biblioteka/src/local_date_time.i: biblioteka/src/local_date_time.cpp.i
+
+.PHONY : biblioteka/src/local_date_time.i
+
+# target to preprocess a source file
+biblioteka/src/local_date_time.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.i
+.PHONY : biblioteka/src/local_date_time.cpp.i
+
+biblioteka/src/local_date_time.s: biblioteka/src/local_date_time.cpp.s
+
+.PHONY : biblioteka/src/local_date_time.s
+
+# target to generate assembly for a file
+biblioteka/src/local_date_time.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.s
+.PHONY : biblioteka/src/local_date_time.cpp.s
+
+biblioteka/test/ClientTest.obj: biblioteka/test/ClientTest.cpp.obj
+
+.PHONY : biblioteka/test/ClientTest.obj
+
+# target to build an object file
+biblioteka/test/ClientTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj
+.PHONY : biblioteka/test/ClientTest.cpp.obj
+
+biblioteka/test/ClientTest.i: biblioteka/test/ClientTest.cpp.i
+
+.PHONY : biblioteka/test/ClientTest.i
+
+# target to preprocess a source file
+biblioteka/test/ClientTest.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.i
+.PHONY : biblioteka/test/ClientTest.cpp.i
+
+biblioteka/test/ClientTest.s: biblioteka/test/ClientTest.cpp.s
+
+.PHONY : biblioteka/test/ClientTest.s
+
+# target to generate assembly for a file
+biblioteka/test/ClientTest.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.s
+.PHONY : biblioteka/test/ClientTest.cpp.s
+
+biblioteka/test/master.obj: biblioteka/test/master.cpp.obj
+
+.PHONY : biblioteka/test/master.obj
+
+# target to build an object file
+biblioteka/test/master.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/master.cpp.obj
+.PHONY : biblioteka/test/master.cpp.obj
+
+biblioteka/test/master.i: biblioteka/test/master.cpp.i
+
+.PHONY : biblioteka/test/master.i
+
+# target to preprocess a source file
+biblioteka/test/master.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/master.cpp.i
+.PHONY : biblioteka/test/master.cpp.i
+
+biblioteka/test/master.s: biblioteka/test/master.cpp.s
+
+.PHONY : biblioteka/test/master.s
+
+# target to generate assembly for a file
+biblioteka/test/master.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/test/master.cpp.s
+.PHONY : biblioteka/test/master.cpp.s
+
 program/src/main.obj: program/src/main.cpp.obj
 
 .PHONY : program/src/main.obj
@@ -548,6 +656,18 @@ help:
 	@echo ... biblioteka/src/VehicleRepository.obj
 	@echo ... biblioteka/src/VehicleRepository.i
 	@echo ... biblioteka/src/VehicleRepository.s
+	@echo ... biblioteka/src/localDateTime.obj
+	@echo ... biblioteka/src/localDateTime.i
+	@echo ... biblioteka/src/localDateTime.s
+	@echo ... biblioteka/src/local_date_time.obj
+	@echo ... biblioteka/src/local_date_time.i
+	@echo ... biblioteka/src/local_date_time.s
+	@echo ... biblioteka/test/ClientTest.obj
+	@echo ... biblioteka/test/ClientTest.i
+	@echo ... biblioteka/test/ClientTest.s
+	@echo ... biblioteka/test/master.obj
+	@echo ... biblioteka/test/master.i
+	@echo ... biblioteka/test/master.s
 	@echo ... program/src/main.obj
 	@echo ... program/src/main.i
 	@echo ... program/src/main.s

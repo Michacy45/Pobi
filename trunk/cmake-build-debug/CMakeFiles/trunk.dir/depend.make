@@ -75,6 +75,19 @@ CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/inc
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/VehicleRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/src/VehicleRepository.cpp
 
+CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj: ../biblioteka/include/local_date_time.h
+CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj: ../biblioteka/src/localDateTime.cpp
+
+CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj: ../biblioteka/include/local_date_time.h
+CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj: ../biblioteka/src/local_date_time.cpp
+
+CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/include/Address.h
+CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/include/Client.h
+CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/include/ClientType.h
+CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/test/ClientTest.cpp
+
+CMakeFiles/trunk.dir/biblioteka/test/master.cpp.obj: ../biblioteka/test/master.cpp
+
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../biblioteka/include/Address.h
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../biblioteka/include/Client.h
 CMakeFiles/trunk.dir/program/src/main.cpp.obj: ../biblioteka/include/ClientType.h

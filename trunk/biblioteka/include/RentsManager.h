@@ -20,6 +20,7 @@ private:
 public:
     void rentVehicle(shared_ptr<Client>, shared_ptr<Vehicle>);
     void returnVehicle(shared_ptr<Client> client, shared_ptr<Vehicle>);
-    void getAllClientRents();
+    list<shared_ptr<Rent>> getAllClientRents(shared_ptr<Client>);
+    int checkClientRentBallance(shared_ptr<Client>);
 };
 #endif

@@ -20,7 +20,7 @@ private:
    shared_ptr<Address> registeredAddress;
    ClientType clientType;
    vector<shared_ptr<Rent>> rents;
-   int rentCounter;
+   //int rentCounter;
 
 public:
     Client();

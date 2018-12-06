@@ -82,9 +82,5 @@ int Client::vehicleAmount() {
 }
 
 int Client::countRents() {
-    for(int i = 0; i < rents.size(); i++)
-    {
-        rentCounter++;
-    }
-    return rentCounter;
+  return rents.size();
 }
