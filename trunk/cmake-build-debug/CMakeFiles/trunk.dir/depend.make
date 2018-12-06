@@ -29,14 +29,6 @@ CMakeFiles/trunk.dir/biblioteka/src/ClientRepository.cpp.obj: ../biblioteka/src/
 CMakeFiles/trunk.dir/biblioteka/src/ClientType.cpp.obj: ../biblioteka/include/ClientType.h
 CMakeFiles/trunk.dir/biblioteka/src/ClientType.cpp.obj: ../biblioteka/src/ClientType.cpp
 
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Address.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Client.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/ClientType.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/CurrentRentsRepository.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Rent.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/include/Vehicle.h
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj: ../biblioteka/src/CurrentRentsRepository.cpp
-
 CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/Moped.h
 CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/MotorVehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj: ../biblioteka/include/Vehicle.h
@@ -57,12 +49,20 @@ CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/Client.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/ClientRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/ClientType.h
-CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/CurrentRentsRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/Rent.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/RentsManager.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/RentsRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/Vehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/include/VehicleRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj: ../biblioteka/src/RentsManager.cpp
+
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/Address.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/Client.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/ClientType.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/Rent.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/RentsRepository.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/include/Vehicle.h
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj: ../biblioteka/src/RentsRepository.cpp
 
 CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj: ../biblioteka/include/Vehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj: ../biblioteka/src/Vehicle.cpp
@@ -74,12 +74,6 @@ CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/inc
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/Vehicle.h
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/include/VehicleRepository.h
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj: ../biblioteka/src/VehicleRepository.cpp
-
-CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj: ../biblioteka/include/local_date_time.h
-CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj: ../biblioteka/src/localDateTime.cpp
-
-CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj: ../biblioteka/include/local_date_time.h
-CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj: ../biblioteka/src/local_date_time.cpp
 
 CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/include/Address.h
 CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj: ../biblioteka/include/Client.h

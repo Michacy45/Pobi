@@ -12,9 +12,7 @@ add_executable(trunk
         biblioteka/include/Client.h
         biblioteka/include/ClientRepository.h
         biblioteka/include/ClientType.h
-        biblioteka/include/CurrentRentsRepository.h
-        biblioteka/include/local_date_time.h
-        biblioteka/include/localDateTime.h
+        biblioteka/include/RentsRepository.h
         biblioteka/include/Moped.h
         biblioteka/include/MotorVehicle.h
         biblioteka/include/Rent.h
@@ -27,9 +25,7 @@ add_executable(trunk
         biblioteka/src/Client.cpp
         biblioteka/src/ClientRepository.cpp
         biblioteka/src/ClientType.cpp
-        biblioteka/src/CurrentRentsRepository.cpp
-        biblioteka/src/local_date_time.cpp
-        biblioteka/src/localDateTime.cpp
+        biblioteka/src/RentsRepository.cpp
         biblioteka/src/Moped.cpp
         biblioteka/src/MotorVehicle.cpp
         biblioteka/src/Rent.cpp
@@ -38,4 +34,4 @@ add_executable(trunk
         biblioteka/src/VehicleRepository.cpp
         biblioteka/test/ClientTest.cpp
         biblioteka/test/master.cpp
-        program/src/main.cpp)
+        program/src/main.cpp biblioteka/include/Repository.h biblioteka/src/Repository.cpp)

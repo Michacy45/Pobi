@@ -1,4 +1,4 @@
-#include <boost/test/unit_test.hpp>
+/*#include <boost/test/unit_test.hpp>
 
 #include "Client.h"
 
@@ -10,4 +10,4 @@ BOOST_AUTO_TEST_CASE(ClientFirstNameCase) {
 //tutaj sprawd� pozosta�e warto�ci dla clienta
 }
 
-BOOST_AUTO_TEST_SUITE_END()
+BOOST_AUTO_TEST_SUITE_END()*/

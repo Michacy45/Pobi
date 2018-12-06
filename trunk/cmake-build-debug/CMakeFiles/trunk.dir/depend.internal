@@ -3,70 +3,70 @@
 
 CMakeFiles/trunk.dir/biblioteka/src/Address.cpp.obj
  ../biblioteka/include/Address.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Address.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Address.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Bicycle.cpp.obj
  ../biblioteka/include/Bicycle.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Bicycle.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Bicycle.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Car.cpp.obj
  ../biblioteka/include/Car.h
  ../biblioteka/include/MotorVehicle.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Car.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Car.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Client.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientType.h
  ../biblioteka/include/Rent.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Client.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Client.cpp
 CMakeFiles/trunk.dir/biblioteka/src/ClientRepository.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientRepository.h
  ../biblioteka/include/ClientType.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/ClientRepository.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/ClientRepository.cpp
 CMakeFiles/trunk.dir/biblioteka/src/ClientType.cpp.obj
  ../biblioteka/include/ClientType.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/ClientType.cpp
-CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj
- ../biblioteka/include/Address.h
- ../biblioteka/include/Client.h
- ../biblioteka/include/ClientType.h
- ../biblioteka/include/CurrentRentsRepository.h
- ../biblioteka/include/Rent.h
- ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/CurrentRentsRepository.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/ClientType.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Moped.cpp.obj
  ../biblioteka/include/Moped.h
  ../biblioteka/include/MotorVehicle.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Moped.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Moped.cpp
 CMakeFiles/trunk.dir/biblioteka/src/MotorVehicle.cpp.obj
  ../biblioteka/include/MotorVehicle.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/MotorVehicle.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/MotorVehicle.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Rent.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientType.h
  ../biblioteka/include/Rent.h
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Rent.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Rent.cpp
 CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientRepository.h
  ../biblioteka/include/ClientType.h
- ../biblioteka/include/CurrentRentsRepository.h
  ../biblioteka/include/Rent.h
  ../biblioteka/include/RentsManager.h
+ ../biblioteka/include/RentsRepository.h
  ../biblioteka/include/Vehicle.h
  ../biblioteka/include/VehicleRepository.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/RentsManager.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/RentsManager.cpp
+CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj
+ ../biblioteka/include/Address.h
+ ../biblioteka/include/Client.h
+ ../biblioteka/include/ClientType.h
+ ../biblioteka/include/Rent.h
+ ../biblioteka/include/RentsRepository.h
+ ../biblioteka/include/Vehicle.h
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/RentsRepository.cpp
 CMakeFiles/trunk.dir/biblioteka/src/Vehicle.cpp.obj
  ../biblioteka/include/Vehicle.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/Vehicle.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/Vehicle.cpp
 CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
@@ -74,22 +74,16 @@ CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.obj
  ../biblioteka/include/Rent.h
  ../biblioteka/include/Vehicle.h
  ../biblioteka/include/VehicleRepository.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/VehicleRepository.cpp
-CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj
- ../biblioteka/include/local_date_time.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/localDateTime.cpp
-CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj
- ../biblioteka/include/local_date_time.h
- D:/wspol/216861/Pobi/trunk/biblioteka/src/local_date_time.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/src/VehicleRepository.cpp
 CMakeFiles/trunk.dir/biblioteka/test/ClientTest.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientType.h
- D:/wspol/216861/Pobi/trunk/biblioteka/test/ClientTest.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/test/ClientTest.cpp
 CMakeFiles/trunk.dir/biblioteka/test/master.cpp.obj
- D:/wspol/216861/Pobi/trunk/biblioteka/test/master.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/biblioteka/test/master.cpp
 CMakeFiles/trunk.dir/program/src/main.cpp.obj
  ../biblioteka/include/Address.h
  ../biblioteka/include/Client.h
  ../biblioteka/include/ClientType.h
- D:/wspol/216861/Pobi/trunk/program/src/main.cpp
+ C:/Users/Adam/Desktop/Wspolny/trunk/program/src/main.cpp

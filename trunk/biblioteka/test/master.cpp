@@ -1,4 +1,4 @@
-#define BOOST_AUTO_TEST_MAIN//root of all tests suites and cases
+/*#define BOOST_AUTO_TEST_MAIN//root of all tests suites and cases
 #define BOOST_TEST_DYN_LINK //use shared boost library
 #include <boost/test/unit_test.hpp>
 
@@ -18,4 +18,4 @@ struct MyConfig {
     }
 };
 
-BOOST_GLOBAL_FIXTURE(MyConfig);
+BOOST_GLOBAL_FIXTURE(MyConfig);*/

@@ -26,6 +26,7 @@ void Rent::returnVehicle(int returnDataTime) {
 
 int Rent::rentDuration() {
     //return data_dzisiejsza-rentDataTime;
+    return 1;
 }
 
 string Rent::rentInfo() {
@@ -36,7 +37,7 @@ string Rent::rentInfo() {
     return info.str();
 }
 
-int Rent::getPrice(){
+double Rent::getPrice(){
     return price;
 }
 

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\wspol\216861\Pobi\trunk
+CMAKE_SOURCE_DIR = C:\Users\Adam\Desktop\Wspolny\trunk
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\wspol\216861\Pobi\trunk\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = D:\wspol\216861\Pobi\trunk\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,7 +69,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Pliki\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.2.6\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\wspol\216861\Pobi\trunk\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Adam\Desktop\Wspolny\trunk\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -284,33 +284,6 @@ biblioteka/src/ClientType.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/ClientType.cpp.s
 .PHONY : biblioteka/src/ClientType.cpp.s
 
-biblioteka/src/CurrentRentsRepository.obj: biblioteka/src/CurrentRentsRepository.cpp.obj
-
-.PHONY : biblioteka/src/CurrentRentsRepository.obj
-
-# target to build an object file
-biblioteka/src/CurrentRentsRepository.cpp.obj:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.obj
-.PHONY : biblioteka/src/CurrentRentsRepository.cpp.obj
-
-biblioteka/src/CurrentRentsRepository.i: biblioteka/src/CurrentRentsRepository.cpp.i
-
-.PHONY : biblioteka/src/CurrentRentsRepository.i
-
-# target to preprocess a source file
-biblioteka/src/CurrentRentsRepository.cpp.i:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.i
-.PHONY : biblioteka/src/CurrentRentsRepository.cpp.i
-
-biblioteka/src/CurrentRentsRepository.s: biblioteka/src/CurrentRentsRepository.cpp.s
-
-.PHONY : biblioteka/src/CurrentRentsRepository.s
-
-# target to generate assembly for a file
-biblioteka/src/CurrentRentsRepository.cpp.s:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/CurrentRentsRepository.cpp.s
-.PHONY : biblioteka/src/CurrentRentsRepository.cpp.s
-
 biblioteka/src/Moped.obj: biblioteka/src/Moped.cpp.obj
 
 .PHONY : biblioteka/src/Moped.obj
@@ -419,6 +392,60 @@ biblioteka/src/RentsManager.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/RentsManager.cpp.s
 .PHONY : biblioteka/src/RentsManager.cpp.s
 
+biblioteka/src/RentsRepository.obj: biblioteka/src/RentsRepository.cpp.obj
+
+.PHONY : biblioteka/src/RentsRepository.obj
+
+# target to build an object file
+biblioteka/src/RentsRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.obj
+.PHONY : biblioteka/src/RentsRepository.cpp.obj
+
+biblioteka/src/RentsRepository.i: biblioteka/src/RentsRepository.cpp.i
+
+.PHONY : biblioteka/src/RentsRepository.i
+
+# target to preprocess a source file
+biblioteka/src/RentsRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.i
+.PHONY : biblioteka/src/RentsRepository.cpp.i
+
+biblioteka/src/RentsRepository.s: biblioteka/src/RentsRepository.cpp.s
+
+.PHONY : biblioteka/src/RentsRepository.s
+
+# target to generate assembly for a file
+biblioteka/src/RentsRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/RentsRepository.cpp.s
+.PHONY : biblioteka/src/RentsRepository.cpp.s
+
+biblioteka/src/Repository.obj: biblioteka/src/Repository.cpp.obj
+
+.PHONY : biblioteka/src/Repository.obj
+
+# target to build an object file
+biblioteka/src/Repository.cpp.obj:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Repository.cpp.obj
+.PHONY : biblioteka/src/Repository.cpp.obj
+
+biblioteka/src/Repository.i: biblioteka/src/Repository.cpp.i
+
+.PHONY : biblioteka/src/Repository.i
+
+# target to preprocess a source file
+biblioteka/src/Repository.cpp.i:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Repository.cpp.i
+.PHONY : biblioteka/src/Repository.cpp.i
+
+biblioteka/src/Repository.s: biblioteka/src/Repository.cpp.s
+
+.PHONY : biblioteka/src/Repository.s
+
+# target to generate assembly for a file
+biblioteka/src/Repository.cpp.s:
+	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/Repository.cpp.s
+.PHONY : biblioteka/src/Repository.cpp.s
+
 biblioteka/src/Vehicle.obj: biblioteka/src/Vehicle.cpp.obj
 
 .PHONY : biblioteka/src/Vehicle.obj
@@ -472,60 +499,6 @@ biblioteka/src/VehicleRepository.s: biblioteka/src/VehicleRepository.cpp.s
 biblioteka/src/VehicleRepository.cpp.s:
 	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/VehicleRepository.cpp.s
 .PHONY : biblioteka/src/VehicleRepository.cpp.s
-
-biblioteka/src/localDateTime.obj: biblioteka/src/localDateTime.cpp.obj
-
-.PHONY : biblioteka/src/localDateTime.obj
-
-# target to build an object file
-biblioteka/src/localDateTime.cpp.obj:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.obj
-.PHONY : biblioteka/src/localDateTime.cpp.obj
-
-biblioteka/src/localDateTime.i: biblioteka/src/localDateTime.cpp.i
-
-.PHONY : biblioteka/src/localDateTime.i
-
-# target to preprocess a source file
-biblioteka/src/localDateTime.cpp.i:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.i
-.PHONY : biblioteka/src/localDateTime.cpp.i
-
-biblioteka/src/localDateTime.s: biblioteka/src/localDateTime.cpp.s
-
-.PHONY : biblioteka/src/localDateTime.s
-
-# target to generate assembly for a file
-biblioteka/src/localDateTime.cpp.s:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/localDateTime.cpp.s
-.PHONY : biblioteka/src/localDateTime.cpp.s
-
-biblioteka/src/local_date_time.obj: biblioteka/src/local_date_time.cpp.obj
-
-.PHONY : biblioteka/src/local_date_time.obj
-
-# target to build an object file
-biblioteka/src/local_date_time.cpp.obj:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.obj
-.PHONY : biblioteka/src/local_date_time.cpp.obj
-
-biblioteka/src/local_date_time.i: biblioteka/src/local_date_time.cpp.i
-
-.PHONY : biblioteka/src/local_date_time.i
-
-# target to preprocess a source file
-biblioteka/src/local_date_time.cpp.i:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.i
-.PHONY : biblioteka/src/local_date_time.cpp.i
-
-biblioteka/src/local_date_time.s: biblioteka/src/local_date_time.cpp.s
-
-.PHONY : biblioteka/src/local_date_time.s
-
-# target to generate assembly for a file
-biblioteka/src/local_date_time.cpp.s:
-	$(MAKE) -f CMakeFiles\trunk.dir\build.make CMakeFiles/trunk.dir/biblioteka/src/local_date_time.cpp.s
-.PHONY : biblioteka/src/local_date_time.cpp.s
 
 biblioteka/test/ClientTest.obj: biblioteka/test/ClientTest.cpp.obj
 
@@ -635,9 +608,6 @@ help:
 	@echo ... biblioteka/src/ClientType.obj
 	@echo ... biblioteka/src/ClientType.i
 	@echo ... biblioteka/src/ClientType.s
-	@echo ... biblioteka/src/CurrentRentsRepository.obj
-	@echo ... biblioteka/src/CurrentRentsRepository.i
-	@echo ... biblioteka/src/CurrentRentsRepository.s
 	@echo ... biblioteka/src/Moped.obj
 	@echo ... biblioteka/src/Moped.i
 	@echo ... biblioteka/src/Moped.s
@@ -650,18 +620,18 @@ help:
 	@echo ... biblioteka/src/RentsManager.obj
 	@echo ... biblioteka/src/RentsManager.i
 	@echo ... biblioteka/src/RentsManager.s
+	@echo ... biblioteka/src/RentsRepository.obj
+	@echo ... biblioteka/src/RentsRepository.i
+	@echo ... biblioteka/src/RentsRepository.s
+	@echo ... biblioteka/src/Repository.obj
+	@echo ... biblioteka/src/Repository.i
+	@echo ... biblioteka/src/Repository.s
 	@echo ... biblioteka/src/Vehicle.obj
 	@echo ... biblioteka/src/Vehicle.i
 	@echo ... biblioteka/src/Vehicle.s
 	@echo ... biblioteka/src/VehicleRepository.obj
 	@echo ... biblioteka/src/VehicleRepository.i
 	@echo ... biblioteka/src/VehicleRepository.s
-	@echo ... biblioteka/src/localDateTime.obj
-	@echo ... biblioteka/src/localDateTime.i
-	@echo ... biblioteka/src/localDateTime.s
-	@echo ... biblioteka/src/local_date_time.obj
-	@echo ... biblioteka/src/local_date_time.i
-	@echo ... biblioteka/src/local_date_time.s
 	@echo ... biblioteka/test/ClientTest.obj
 	@echo ... biblioteka/test/ClientTest.i
 	@echo ... biblioteka/test/ClientTest.s

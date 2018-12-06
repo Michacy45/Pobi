@@ -16,13 +16,13 @@ private:
     shared_ptr<Vehicle> vehicle;
     int rentDataTime;
     int returnDataTime;
-    int price;
+    double price;
 public:
     Rent(shared_ptr<Client>, shared_ptr<Vehicle>, int);
     int rentDuration();
     void returnVehicle(int);
     string rentInfo();
-    int getPrice();
+    double getPrice();
     shared_ptr<Client> getClient();
     shared_ptr<Vehicle> getVehicle();
 

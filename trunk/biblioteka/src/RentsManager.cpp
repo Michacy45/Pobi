@@ -15,22 +15,31 @@ void RentsManager::rentVehicle(shared_ptr<Client> client, shared_ptr<Vehicle> ve
     }
 
     shared_ptr <Rent> a(new Rent(client, vehicle, 20));
-    archive->createRent(a);
+    current.createRent(a);
 }
 
 void RentsManager::returnVehicle(shared_ptr<Client> client, shared_ptr<Vehicle> vehicle) {
-    client->removeRent(archive->getRentForVehicle(vehicle));
-    archive->fromRentsToArchive(archive->getRentForVehicle(vehicle));
+    client->removeRent(current.getRentForVehicle(vehicle));
+    fromRentsToArchive(current.getRentForVehicle(vehicle));
 
 }
-//ZRÓB ZEBY dla tego klienta w pętli pododawało wszystkie jego Renty z archieRents a w che
-list<shared_ptr<Rent>> RentsManager::getAllClientRents(shared_ptr<Client>) {
-    list<shared_ptr<Rent>> clientrents;//
-    //...........................
-    return clientrents;
+
+list<shared_ptr<Rent>> RentsManager::getAllClientRents(shared_ptr<Client> client) {
+    return archiveList.rentsList(client);
 }
 
-int RentsManager::checkClientRentBallance(shared_ptr<Client> client) {
-    //A TU TYLKO ZRÓB LISTE DO KTÓREJ ZROBISZ "=getAllClientRents' i zliczysz i zwrócisz ilość elementów w niej,
-    //generalnie dla mnie bez sensu rozdzielac to na 2 metody no ale cóż xddd
+double RentsManager::checkClientRentBallance(shared_ptr<Client> client) {
+    list<shared_ptr<Rent>>::iterator it;
+    list<shared_ptr<Rent>> result (getAllClientRents(client));
+    double pom = 0;
+    for(it = result.begin(); it != result.end(); it++)
+    {
+        pom += (*it)->getPrice();
+    }
+    return pom;
+}
+
+void RentsManager::fromRentsToArchive(shared_ptr<Rent> rent) {
+    shared_ptr<Rent> nazwa (current.removeRent(rent));
+    archiveList.createRent(nazwa);
 }
